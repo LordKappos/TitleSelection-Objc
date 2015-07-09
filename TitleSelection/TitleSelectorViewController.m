@@ -8,8 +8,9 @@
 
 #import "TitleSelectorViewController.h"
 #import "TitleTableViewDataSource.h"
+#import "theDetailViewController.h"
 
-@interface TitleSelectorViewController ()
+@interface TitleSelectorViewController () <UITableViewDelegate>
 
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) TitleTableViewDataSource *dataSource;
@@ -25,7 +26,20 @@
     
     self.tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
     self.tableView.dataSource = self.dataSource;
+    self.tableView.delegate = self;
     [self.view addSubview:self.tableView];
+    
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    NSString *movieTitleString = [self.dataSource titleAtIndexPath:indexPath];
+    
+    theDetailViewController *detailViewController = [theDetailViewController new];
+
+    detailViewController.movieTitle = movieTitleString;
+    
+    [self.navigationController pushViewController:detailViewController animated:YES];
+    
     
 }
 

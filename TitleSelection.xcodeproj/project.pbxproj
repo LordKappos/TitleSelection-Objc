@@ -13,6 +13,7 @@
 		7150973119A924FA00E6AE2A /* TitleSelectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7150973019A924FA00E6AE2A /* TitleSelectionTests.m */; };
 		7150973C19A9250F00E6AE2A /* TitleSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7150973B19A9250F00E6AE2A /* TitleSelectorViewController.m */; };
 		7150973F19A925DA00E6AE2A /* TitleTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7150973E19A925DA00E6AE2A /* TitleTableViewDataSource.m */; };
+		D22D01D81B4EE75500B681D1 /* theDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D22D01D71B4EE75500B681D1 /* theDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,8 @@
 		7150973B19A9250F00E6AE2A /* TitleSelectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleSelectorViewController.m; sourceTree = "<group>"; };
 		7150973D19A925DA00E6AE2A /* TitleTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleTableViewDataSource.h; sourceTree = "<group>"; };
 		7150973E19A925DA00E6AE2A /* TitleTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleTableViewDataSource.m; sourceTree = "<group>"; };
+		D22D01D61B4EE75500B681D1 /* theDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = theDetailViewController.h; sourceTree = "<group>"; };
+		D22D01D71B4EE75500B681D1 /* theDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = theDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 				7150972219A924FA00E6AE2A /* AppDelegate.m */,
 				7150973A19A9250F00E6AE2A /* TitleSelectorViewController.h */,
 				7150973B19A9250F00E6AE2A /* TitleSelectorViewController.m */,
+				D22D01D61B4EE75500B681D1 /* theDetailViewController.h */,
+				D22D01D71B4EE75500B681D1 /* theDetailViewController.m */,
 				7150973D19A925DA00E6AE2A /* TitleTableViewDataSource.h */,
 				7150973E19A925DA00E6AE2A /* TitleTableViewDataSource.m */,
 				7150972419A924FA00E6AE2A /* Images.xcassets */,
@@ -215,6 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D22D01D81B4EE75500B681D1 /* theDetailViewController.m in Sources */,
 				7150973C19A9250F00E6AE2A /* TitleSelectorViewController.m in Sources */,
 				7150973F19A925DA00E6AE2A /* TitleTableViewDataSource.m in Sources */,
 				7150972319A924FA00E6AE2A /* AppDelegate.m in Sources */,
@@ -392,6 +398,7 @@
 				7150973619A924FA00E6AE2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7150973719A924FA00E6AE2A /* Build configuration list for PBXNativeTarget "TitleSelectionTests" */ = {
 			isa = XCConfigurationList;
@@ -400,6 +407,7 @@
 				7150973919A924FA00E6AE2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
